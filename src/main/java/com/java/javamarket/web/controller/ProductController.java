@@ -30,7 +30,7 @@ public class ProductController {
     private ProductService productService;
 
     /**
-     * Obtiene todos los productos 
+     * Obtiene todos los productos
      * @return
      */
     @GetMapping("/all")
