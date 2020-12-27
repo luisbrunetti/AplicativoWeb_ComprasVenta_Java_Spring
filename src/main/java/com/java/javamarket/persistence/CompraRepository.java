@@ -12,6 +12,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ *
+ */
 @Repository
 public class CompraRepository implements PurchaseRepository {
     @Autowired
@@ -31,6 +34,11 @@ public class CompraRepository implements PurchaseRepository {
                 mapper.toPurchases(compras));
     }
 
+    /**
+     * <h1>Guardar un producto </h1>
+     * @param purchase
+     * @return
+     */
     @Override
     public Purchase save(Purchase purchase) {
         Compra compra = mapper.toCompra(purchase);
