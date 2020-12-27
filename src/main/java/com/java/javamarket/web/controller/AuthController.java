@@ -1,5 +1,5 @@
 package com.java.javamarket.web.controller;
-
+/*
 import com.java.javamarket.domain.dto.AuthenticationRequest;
 import com.java.javamarket.domain.dto.AuthenticationResponse;
 import com.java.javamarket.domain.service.UserDetailsService;
@@ -45,3 +45,4 @@ public class AuthController {
 
     }
 }
+*/

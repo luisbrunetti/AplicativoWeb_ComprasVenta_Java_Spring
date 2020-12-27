@@ -22,7 +22,9 @@ dependencies {
 	//SPring Swagger UI
 	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
 	//SPring security
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+
+
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	//JSON web Token

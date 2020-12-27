@@ -1,5 +1,5 @@
 package com.java.javamarket.web.Security.Filter;
-
+/*
 import com.java.javamarket.domain.service.UserDetailsService;
 import com.java.javamarket.web.Security.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,3 +46,4 @@ public class JwtFilterRequest extends OncePerRequestFilter {
         filterChain.doFilter(request,response);
     }
 }
+*/

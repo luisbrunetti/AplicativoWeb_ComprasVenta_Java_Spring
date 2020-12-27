@@ -1,5 +1,5 @@
 package com.java.javamarket.domain.service;
-
+/*
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -16,3 +16,4 @@ public class UserDetailsService implements org.springframework.security.core.use
         return new User("luis","{noop}oracle",new ArrayList<>());
     }
 }
+*/

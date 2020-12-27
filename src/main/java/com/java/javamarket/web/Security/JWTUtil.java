@@ -1,5 +1,5 @@
 package com.java.javamarket.web.Security;
-
+/*
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -40,3 +40,4 @@ public class JWTUtil {
         return Jwts.parser().setSigningKey(KEY).parseClaimsJws(token).getBody();
     }
 }
+*/

@@ -1,5 +1,5 @@
 package com.java.javamarket.web.Security;
-
+/*
 import com.java.javamarket.domain.service.UserDetailsService;
 import com.java.javamarket.web.Security.Filter.JwtFilterRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,11 +30,11 @@ public class SecurityCOnfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         // Dehabilitar las peticiones cruzadas
         //autorice las peticiones
-        //** sirven como comodin
+        //sirven como comodin
         http.csrf().disable()
-                .authorizeRequests()
-                .antMatchers("/**/authenticate")
-                .permitAll()
+                .authorizeRequests()*/
+                //.antMatchers("/**/authenticate")
+                /*.permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
@@ -52,3 +52,4 @@ public class SecurityCOnfig extends WebSecurityConfigurerAdapter {
         return super.authenticationManagerBean();
     }
 }
+*/
