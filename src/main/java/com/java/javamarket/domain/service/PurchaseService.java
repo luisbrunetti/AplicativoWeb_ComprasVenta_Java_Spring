@@ -11,6 +11,9 @@ import java.util.Optional;
 
 @Service
 public class PurchaseService {
+    /**
+     * {@inheritDoc}
+     */
     @Autowired
     private PurchaseRepository purchaseRepository;
 
@@ -20,6 +23,12 @@ public class PurchaseService {
     public Optional<List<Purchase>> getByClient( String clientId){
         return purchaseRepository.getByClient(clientId);
     }
+
+    /**
+     *
+     * @param purchase
+     * @return un objeto llamado @code{{@link Purchase}}
+     */
     public Purchase save(Purchase purchase){
         return purchaseRepository.save(purchase);
     }

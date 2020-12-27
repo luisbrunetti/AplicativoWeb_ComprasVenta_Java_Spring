@@ -11,6 +11,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Implementar de {@link ProductRepository}
+ * @see ProductRepository
+ */
 @Repository
 public class ProductoRepository implements ProductRepository {
     @Autowired
@@ -18,6 +22,9 @@ public class ProductoRepository implements ProductRepository {
     @Autowired
     private ProductMapper mapper;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public List<Product> getAll(){
         List<Producto> productos = (List<Producto>) productoCrudRepository.findAll();
@@ -44,6 +51,7 @@ public class ProductoRepository implements ProductRepository {
     public void delete(int idProducto){
         productoCrudRepository.deleteById(idProducto);
     }
+
 */
     @Override
     public Optional<List<Product>> getByCategory(int categoryId) {
@@ -67,6 +75,17 @@ public class ProductoRepository implements ProductRepository {
         Producto producto = mapper.toProducto(product);
         return mapper.toProduct(productoCrudRepository.save(producto));
     }
+
+    /**
+     * {@inheritDoc}
+     * Este metodo borra un product o
+     *
+     * @apiNote 33dsfsdfsdfsdf
+     * @param idProducto
+     * @return no deuvelve nada
+     * @{code} descripcion de pruieba
+     *
+     */
     @Override
     public void delete(int idProducto){
         productoCrudRepository.deleteById(idProducto);

@@ -19,6 +19,12 @@ public class ProductService {
         return productRepository.getAll();
     }
 
+    /**
+     *
+     * @param productId
+     * @code{getPro}
+     * @return un OptionalProduct
+     */
     public Optional<Product> getProduct(int productId){
         return productRepository.getProduct(productId);
     }
