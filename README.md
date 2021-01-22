@@ -1,1 +1,2 @@
 # AplicativoWeb_ComprasVenta_Heroku
+Aplicativo Web realizado en Java con el Framework Spring para publicar servicios REST de información de compra y venta que sera consumidos a traves de metodos GET, POST, DELETE y UPDATE que esta siendo hosteado en Heroky. Del mismo modo cuenta con conexión a base de datos PostgreSQL haciendo consultas con Query Methods que permite Spring. Además hace uso de JWT (Json Web Token) para la autentificacion de los usuarios que acceden al servicio.  Finalmente, tambien se hace uso de Swagger para la documentación de los servicios.
